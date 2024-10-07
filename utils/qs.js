@@ -6,9 +6,9 @@ const pubkey = require('./pubkey')
 const encrypt = new jsencrypt()
 encrypt.setPublicKey(pubkey)
 const data = qs.stringify({
-account: process.env.ACCOUNT,
-password: process.env.PASSWORD,
-school_id: process.env.SCHOOL_ID,
+account:0632221017,
+password:lds221017,
+school_id:2029,
 request_source: 3,
 system: '5.1.1'
 })
@@ -17,8 +17,8 @@ system: '5.1.1'
 const signdata = qs.stringify({
   address: process.env.ADDRESS,
   address_name: process.env.ADDRESS_NAME,
-  latitude: encrypt.encrypt(process.env.LATITUDE),
-  longitude: encrypt.encrypt(process.env.LONGITUDE),
+  latitude:120.962776,
+  longitude:31.916006,
   remark: 0,
   change_sign_resource: 0
 })
