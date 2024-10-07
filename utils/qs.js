@@ -53,7 +53,7 @@ const studentReportApi = (token) => {
 const studentReportCommitApi = (token) => {
   return `https://api.xixunyun.com/health/add?token=${token}`
 }
-const mail = process.env.MAIL
+const mail = process.env.1359694181@qq.com
 const code = process.env.CODE
 const token = process.env.TOKEN
 module.exports = {
